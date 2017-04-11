@@ -1,0 +1,82 @@
+<svg height="1262" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1262" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+<tspan x="10" y="42">&gt; npmtest-markdown-pdf@0.0.1 test /home/travis/build/npmtest/node-npmtest-markdown-pdf</tspan>
+<tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
+<tspan x="10" y="74"></tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T14:19:02Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
+<tspan x="10" y="122">t-markdown-pdf</tspan>
+<tspan x="10" y="138"></tspan>
+<tspan x="10" y="154">merging file:///home/travis/build/npmtest/node-npmtest-markdown-pdf/tmp/build/test-report.json t\</tspan>
+<tspan x="10" y="170">o test-report</tspan>
+<tspan x="10" y="186">&gt; server listening on http-port 55850</tspan>
+<tspan x="10" y="202">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="218">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="234">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="250"></tspan>
+<tspan x="10" y="266">browserTest - created electron entry-page /home/travis/build/npmtest/node-npmtest-markdown-pdf/t\</tspan>
+<tspan x="10" y="282">mp/electron.15b5d61d5980.9f64bdf91d95e.html</tspan>
+<tspan x="10" y="298"></tspan>
+<tspan x="10" y="314">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="330">events.js:160</tspan>
+<tspan x="10" y="346">      throw er; // Unhandled 'error' event</tspan>
+<tspan x="10" y="362">      ^</tspan>
+<tspan x="10" y="378"></tspan>
+<tspan x="10" y="394">Error: spawn /home/travis/build/npmtest/node-npmtest-markdown-pdf/node_modules/electron-lite/ext\</tspan>
+<tspan x="10" y="410">ernal/electron ENOENT</tspan>
+<tspan x="10" y="426">    at exports._errnoException (util.js:1018:11)</tspan>
+<tspan x="10" y="442">    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)</tspan>
+<tspan x="10" y="458">    at onErrorNT (internal/child_process.js:367:16)</tspan>
+<tspan x="10" y="474">    at _combinedTickCallback (internal/process/next_tick.js:80:11)</tspan>
+<tspan x="10" y="490">    at process._tickCallback (internal/process/next_tick.js:104:9)</tspan>
+<tspan x="10" y="506">    at Module.runMain (module.js:606:11)</tspan>
+<tspan x="10" y="522">    at run (bootstrap_node.js:393:7)</tspan>
+<tspan x="10" y="538">    at startup (bootstrap_node.js:150:9)</tspan>
+<tspan x="10" y="554">    at bootstrap_node.js:508:3</tspan>
+<tspan x="10" y="570"></tspan>
+<tspan x="10" y="586">browserTest - exit-code 1 - http://127.0.0.1:55850?modeTest=1</tspan>
+<tspan x="10" y="602"></tspan>
+<tspan x="10" y="618"></tspan>
+<tspan x="10" y="634">testCase testCase_webpage_default failed</tspan>
+<tspan x="10" y="650">ENOENT: no such file or directory, open '/home/travis/build/npmtest/node-npmtest-markdown-pdf/tm\</tspan>
+<tspan x="10" y="666">p/test-report.npmTest.browser.%2F.json'</tspan>
+<tspan x="10" y="682">Error: ENOENT: no such file or directory, open '/home/travis/build/npmtest/node-npmtest-markdown\</tspan>
+<tspan x="10" y="698">-pdf/tmp/test-report.npmTest.browser.%2F.json'</tspan>
+<tspan x="10" y="714">    at Error (native)</tspan>
+<tspan x="10" y="730">    at Object.fs.openSync (fs.js:641:18)</tspan>
+<tspan x="10" y="746">    at Object.fs.readFileSync (fs.js:509:33)</tspan>
+<tspan x="10" y="762">    at /home/travis/build/npmtest/node-npmtest-markdown-pdf/node_modules/utility2/lib.utility2.j\</tspan>
+<tspan x="10" y="778">s:2248:38</tspan>
+<tspan x="10" y="794">    at Object.local.tryCatchOnError (/home/travis/build/npmtest/node-npmtest-markdown-pdf/node_m\</tspan>
+<tspan x="10" y="810">odules/utility2/lib.utility2.js:5642:24)</tspan>
+<tspan x="10" y="826">    at ChildProcess.onNext (/home/travis/build/npmtest/node-npmtest-markdown-pdf/node_modules/ut\</tspan>
+<tspan x="10" y="842">ility2/lib.utility2.js:2246:27)</tspan>
+<tspan x="10" y="858">    at ChildProcess.g (events.js:291:16)</tspan>
+<tspan x="10" y="874">    at emitTwo (events.js:111:20)</tspan>
+<tspan x="10" y="890">    at ChildProcess.emit (events.js:191:7)</tspan>
+<tspan x="10" y="906">    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)</tspan>
+<tspan x="10" y="922">[node test-case 5 of 6 failed] - testCase_webpage_default</tspan>
+<tspan x="10" y="938">&gt; server listening on http-port 62254</tspan>
+<tspan x="10" y="954">[node test-case 6 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="970">merging file:///home/travis/build/npmtest/node-npmtest-markdown-pdf/tmp/build/test-report.json t\</tspan>
+<tspan x="10" y="986">o test-report</tspan>
+<tspan x="10" y="1002"></tspan>
+<tspan x="10" y="1018">-------------------------------------------------------</tspan>
+<tspan x="10" y="1034">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T14:18:51.603Z</tspan>
+<tspan x="10" y="1050">|   16819 ms            1 failed        5 passed      |</tspan>
+<tspan x="10" y="1066">-------------------------------------------------------</tspan>
+<tspan x="10" y="1082"></tspan>
+<tspan x="10" y="1098">created test-report file:///home/travis/build/npmtest/node-npmtest-markdown-pdf/tmp/build/test-r\</tspan>
+<tspan x="10" y="1114">eport.html</tspan>
+<tspan x="10" y="1130"></tspan>
+<tspan x="10" y="1146"></tspan>
+<tspan x="10" y="1162">npmTest - 1 failed tests</tspan>
+<tspan x="10" y="1178"></tspan>
+<tspan x="10" y="1194"></tspan>
+<tspan x="10" y="1210">[MODE_BUILD=npmTest] - 2017-04-11T14:19:11Z - EXIT_CODE - 1</tspan>
+<tspan x="10" y="1226"></tspan>
+<tspan x="10" y="1242">npm ERR! Test failed.  See above for more details.</tspan>
+</text>
+</svg>
