@@ -1,7 +1,10 @@
-# test coverage for  [markdown-pdf (v7.0.0)](https://github.com/alanshaw/markdown-pdf)  [![npm package](https://img.shields.io/npm/v/npmtest-markdown-pdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-markdown-pdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-markdown-pdf.svg)](https://travis-ci.org/npmtest/node-npmtest-markdown-pdf)
+# npmtest-markdown-pdf
+
+#### test coverage for  [markdown-pdf (v7.0.0)](https://github.com/alanshaw/markdown-pdf)  [![npm package](https://img.shields.io/npm/v/npmtest-markdown-pdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-markdown-pdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-markdown-pdf.svg)](https://travis-ci.org/npmtest/node-npmtest-markdown-pdf)
+
 #### Markdown to PDF converter
 
-[![NPM](https://nodei.co/npm/markdown-pdf.png?downloads=true)](https://www.npmjs.com/package/markdown-pdf)
+[![NPM](https://nodei.co/npm/markdown-pdf.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/markdown-pdf)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-markdown-pdf/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-markdown-pdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-markdown-pdf/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-markdown-pdf/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-markdown-pdf/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-markdown-pdf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-markdown-pdf/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-markdown-pdf/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-markdown-pdf%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-markdown-pdf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-markdown-pdf/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-markdown-pdf%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.html](https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-markdown-pdf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-markdown-pdf/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-markdown-pdf/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-markdown-pdf/build/screenCapture.npmPackageListing.svg)
 
@@ -74,13 +83,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "alanshaw",
-            "email": "alan138@gmail.com"
+            "name": "alanshaw"
         }
     ],
     "name": "markdown-pdf",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/alanshaw/markdown-pdf.git"
